@@ -58,10 +58,13 @@ npm run lint
         "html",
         "javascript"
     ],
-    "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
     },
-    "workbench.colorTheme": "FlatUI Dark"
+    "editor.formatOnSave": true,
+    "workbench.colorTheme": "FlatUI Dark",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
 ```
